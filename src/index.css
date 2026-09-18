@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================================================
+   EVENTARA — PROFESSIONAL ENTERPRISE LIGHT THEME (TEAL + SLATE)
+========================================================= */
+
+@layer base {
+  :root {
+    --bg-main: #F8FAFC;
+    --bg-card: #FFFFFF;
+    --border-color: #E2E8F0;
+    --primary-teal: #0F766E;
+    --primary-teal-dark: #115E59;
+    --text-heading: #0F172A;
+    --text-body: #334155;
+    --text-muted: #64748B;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    color-scheme: light;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    background-color: #F8FAFC;
+    color: #0F172A;
+    font-family: 'Plus Jakarta Sans', 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+    letter-spacing: -0.025em;
+    color: #0F172A;
+    font-weight: 700;
+  }
+
+  /* Accessible text selection */
+  ::selection {
+    background-color: #CCFBF1;
+    color: #0F766E;
+  }
+
+  :focus-visible {
+    outline: 2px solid #0F766E;
+    outline-offset: 2px;
+  }
+}
+
+/* =========================================================
+   CLEAN ENTERPRISE SCROLLBAR
+========================================================= */
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0F766E;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #CBD5E1 #F1F5F9;
+}
+
+/* =========================================================
+   PROFESSIONAL CARD & BUTTON UTILITIES (ZERO GRADIENTS)
+========================================================= */
+
+.pro-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.pro-card-hover {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.pro-card-hover:hover {
+  border-color: #0D9488;
+  box-shadow: 0 8px 16px -4px rgba(15, 118, 110, 0.08);
+  transform: translateY(-2px);
+}
+
+.btn-teal {
+  background-color: #0F766E;
+  color: #FFFFFF;
+  font-weight: 600;
+  transition: all 0.15s ease;
+}
+
+.btn-teal:hover {
+  background-color: #115E59;
+}
+
+.btn-teal-outline {
+  background-color: #FFFFFF;
+  border: 1px solid #0F766E;
+  color: #0F766E;
+  font-weight: 600;
+  transition: all 0.15s ease;
+}
+
+.btn-teal-outline:hover {
+  background-color: #F0FDFA;
+}

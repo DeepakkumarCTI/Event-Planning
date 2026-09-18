@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Solid Deep Teal Emblem Foundation -->
+  <rect width="64" height="64" rx="16" fill="#0F766E"/>
+  
+  <!-- Architectural Monogram E + Celebration Pavilion -->
+  <!-- Left Pillar -->
+  <rect x="15" y="15" width="7" height="34" rx="3.5" fill="#FFFFFF"/>
+  
+  <!-- Top Canopy Tier -->
+  <path d="M22 18.5C22 16.567 23.567 15 25.5 15H44.5C46.433 15 48 16.567 48 18.5C48 20.433 46.433 22 44.5 22H22V18.5Z" fill="#FFFFFF"/>
+  
+  <!-- Middle Coordination Tier -->
+  <rect x="22" y="28.5" width="16" height="7" rx="3.5" fill="#FFFFFF"/>
+  
+  <!-- Bottom Foundation Tier -->
+  <path d="M22 42H44.5C46.433 42 48 43.567 48 45.5C48 47.433 46.433 49 44.5 49H25.5C23.567 49 22 47.433 22 45.5V42Z" fill="#FFFFFF"/>
+  
+  <!-- Pinnacle Celebration Accent -->
+  <circle cx="44.5" cy="18.5" r="3.5" fill="#5EEAD4"/>
+</svg>
